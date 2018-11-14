@@ -16,4 +16,33 @@ h1 {
   margin: 0 auto;
   text-align: center;
   font-size: 300%;
+  line-height: 70px;
+}
+
+@media (min-width: 3042px) {
+  h1 {
+    width: 19%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 772px) {
+  h2 {
+    margin-top: 4%;
+    margin-bottom: 8%;
+    text-align: center;
+    font-size: 60%;
+    letter-spacing: 3px;
+  }
+
+  h1 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+    line-height: 30px;
+  }
 }
