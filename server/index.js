@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 });
 
 const PORT = 4001;
-app.listen(PORT, () => console.log(`Server listening on port PORT`));
+app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
