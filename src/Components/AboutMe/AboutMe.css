@@ -1,0 +1,97 @@
+.about-me {
+  padding-top: 70px;
+  height: 100vh;
+}
+
+.sunflower-img {
+  width: 100%;
+}
+
+.about-me-container {
+  /* background: orange; */
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  /* background: blue; */
+  width: 50%;
+  height: 100vh;
+  font-size: 5em;
+}
+
+.about-me-text {
+  /* background: red; */
+  width: 40%;
+  height: 100vh;
+  padding: 0 150px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+/* .profile-container {
+}
+
+.profile-picture {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background: blueviolet;
+} */
+
+@media (min-width: 3042px) {
+  .about-me-container {
+    /* background: orange; */
+    width: 60%;
+  }
+}
+
+@media (max-width: 1876px) {
+  .about-me-container {
+    /* background: orange; */
+    width: 100%;
+  }
+
+  .about-me-text {
+    /* background: red; */
+    width: 60%;
+    height: 100vh;
+    padding: 0 150px;
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .name {
+    /* background: blue; */
+    width: 40%;
+    height: 100vh;
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .name {
+    /* background: blue; */
+    width: 90%;
+    padding-top: 5%;
+    height: 15vh;
+    font-size: 2.5em;
+  }
+
+  .about-me-text {
+    /* background: red; */
+    width: 95%;
+
+    padding: 0;
+    text-align: left;
+    font-size: 1em;
+  }
+}

@@ -4,8 +4,8 @@
 }
 
 h2 {
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 3%;
   text-align: center;
   font-size: 110%;
   letter-spacing: 3px;
@@ -24,7 +24,7 @@ h1 {
     width: 19%;
     margin: 0 auto;
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
     line-height: 70px;
   }
 }

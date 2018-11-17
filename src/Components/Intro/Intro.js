@@ -9,7 +9,7 @@ export class Intro extends Component {
         <div className="message-container">
           <h1>
             Hi there! I'm a Full-stack Web Developer who loves creating new and
-            exciting sites.
+            exciting things.
           </h1>
         </div>
       </div>
