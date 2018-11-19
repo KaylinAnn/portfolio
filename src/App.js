@@ -3,6 +3,7 @@ import "./App.css";
 import Routes from "./Routes";
 import Intro from "./Components/Intro/Intro";
 import AboutMe from "./Components/AboutMe/AboutMe";
+import Experience from "./Components/Experience/Experience";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <header className="App-header" />
         <Intro />
         <AboutMe />
+        <Experience />
         {/* {Routes} */}
       </div>
     );
