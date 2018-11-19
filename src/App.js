@@ -4,6 +4,7 @@ import Routes from "./Routes";
 import Intro from "./Components/Intro/Intro";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Experience from "./Components/Experience/Experience";
+import ContactMe from "./Components/ContactMe/ContactMe";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Intro />
         <AboutMe />
         <Experience />
+        <ContactMe />
         {/* {Routes} */}
       </div>
     );
