@@ -24,8 +24,8 @@ transporter.verify((error, success) => {
   }
 });
 
-app.get("/", (req, res) => {
-  res.send("endpoint live");
+app.get("/api/healthcheck", (req, res) => {
+  res.send("okay");
 });
 
 app.post("/api/send", (req, res, next) => {
@@ -56,5 +56,5 @@ app.post("/api/send", (req, res, next) => {
   });
 });
 
-const PORT = 4001;
+const PORT = 4000;
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));

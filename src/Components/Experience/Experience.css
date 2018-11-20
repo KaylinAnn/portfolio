@@ -70,3 +70,20 @@
   max-width: 80%;
   margin: 10%;
 }
+
+@media (max-width: 500px) {
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .eperience-skills {
+    width: 100%;
+  }
+
+  .project-container {
+    width: 100%;
+  }
+}
