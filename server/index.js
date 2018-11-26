@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
+const path = require("path");
 
 app.use(bodyParser.json());
 
@@ -55,6 +56,17 @@ app.post("/api/send", (req, res, next) => {
     }
   });
 });
+
+if (process.env.NODE_ENV === "production") {
+  console.log("Server running in production mode");
+  // if not handled, try static files
+  app.use(express.static(path.join(__dirname, "..", "build")));
+
+  // if no static files, send back index
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "..", "build", "index.html"));
+  });
+}
 
 const PORT = 4000;
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
