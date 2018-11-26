@@ -21,7 +21,7 @@ jobs:
           command: yarn run build
       - run:
           name: Deploy branch to elastic beanstalk
-          command: eb deploy kaylins-portfolio-$CIRCLE_BRANCH
+          command: eb deploy kaylins-portfolio
 workflows:
   version: 2
   eb_deploy:
