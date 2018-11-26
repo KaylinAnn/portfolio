@@ -18,7 +18,7 @@ export class AboutMe extends Component {
             <img
               className="profile-picture"
               src="https://res.cloudinary.com/dclawygaw/image/upload/v1542643005/20180311_124349.jpg"
-              alt="profile-picture"
+              alt="profile"
             />
           </div>
           <div className="about-me-text-container">
