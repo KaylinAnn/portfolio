@@ -1,6 +1,5 @@
 .intro {
   width: 100%;
-  height: 20%;
 }
 
 h2 {
@@ -17,16 +16,6 @@ h1 {
   text-align: center;
   font-size: 300%;
   line-height: 70px;
-}
-
-@media (min-width: 3042px) {
-  h1 {
-    width: 19%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 350%;
-    line-height: 70px;
-  }
 }
 
 @media (max-width: 772px) {

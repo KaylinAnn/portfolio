@@ -11,6 +11,11 @@ export class AboutMe extends Component {
             src="https://res.cloudinary.com/dclawygaw/image/upload/v1542415818/sunflower.jpg"
             alt="sunflower"
           />
+          <img
+            className="sunflower-img-mobile"
+            src="https://res.cloudinary.com/dclawygaw/image/upload/v1543257500/sunflower_2.jpg"
+            alt="sunflower"
+          />
         </div>
         <div className="about-me-container">
           <div className="name-picture">

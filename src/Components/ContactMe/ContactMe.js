@@ -47,11 +47,11 @@ export class ContactMe extends Component {
           onSubmit={this.handleSubmit.bind(this)}
         >
           <div className="name-input-container input-container">
-            <label for="name">Name</label>
+            <label>Name</label>
             <input type="text" className="form-control" id="name" />
           </div>
           <div className="email-input-container input-container">
-            <label for="exampleInputEmail1">Email address</label>
+            <label>Email address</label>
             <input
               type="email"
               className="form-control"
@@ -60,7 +60,7 @@ export class ContactMe extends Component {
             />
           </div>
           <div className="message-input-container input-container">
-            <label for="message">Message</label>
+            <label>Message</label>
             <textarea className="form-control-message" rows="5" id="message" />
           </div>
           <button type="submit" className="btn btn-primary">
