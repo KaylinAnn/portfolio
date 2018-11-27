@@ -87,6 +87,10 @@ export class Experience extends Component {
                 make an account and add ingredients they have on-hand. The user
                 will be shown and be able to save full recipes according to what
                 ingredients the user has.
+                Visit the site&nbsp;
+                <a href="https://kaylinskitchen.ninja" target="_blank">
+                  here!
+                </a>
                 <br />
                 <br /> Tech Used:
                 <br /> React.js | Node.js | Javascript | Redux.js | Express.js |
@@ -107,6 +111,10 @@ export class Experience extends Component {
                 can list their homes for rent.
                 <br />
                 Guests can find and book homes based on dates and destination.
+                Visit the site&nbsp;
+                <a href="https://www.airbnb.com/" target="_blank">
+                  here!
+                </a>
                 <br />
                 <br /> Tech Used:
                 <br /> React.js | Node.js | Javascript | Redux.js | Express.js |
