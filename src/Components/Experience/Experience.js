@@ -112,7 +112,7 @@ export class Experience extends Component {
                 <br />
                 Guests can find and book homes based on dates and destination.
                 Visit the site&nbsp;
-                <a href="https://www.airbnb.com/" rel="noopener noreferrer" target="_blank">
+                <a href="https://airbb.us/" rel="noopener noreferrer" target="_blank">
                   here!
                 </a>
                 <br />
