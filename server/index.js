@@ -63,10 +63,14 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "..", "build")));
 
   // if no static files, send back index
-  app.get("*", function(req, res) {
+  app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "..", "build", "index.html"));
   });
 }
 
-const PORT = 4000;
-app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
+const PORT = process.env.PORT;
+app.listen(PORT, () => {
+  console.log(`app listening on port ${PORT}`);
+});
+
+
