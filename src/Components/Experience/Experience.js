@@ -111,8 +111,8 @@ export class Experience extends Component {
                 can list their homes for rent.
                 <br />
                 Guests can find and book homes based on dates and destination.
-                Visit the site&nbsp;
-                <a href="https://airbb.us/" rel="noopener noreferrer" target="_blank">
+                Visit the gitHub Repo&nbsp;
+                <a href="https://github.com/aetoule/airbnb-clone" rel="noopener noreferrer" target="_blank">
                   here!
                 </a>
                 <br />
@@ -123,6 +123,54 @@ export class Experience extends Component {
               <ImageGallery
                 className="image-gallery"
                 items={airBnBCloneImages}
+                showFullscreenButton={true}
+                showPlayButton={false}
+                showThumbnails={false}
+              />
+            </div>
+            <div className="project-container">
+              <h1 className="project-title">Kaylin's Kitchen</h1>
+              <p className="project-description">
+                Kaylin's kitchen is a recipe search based website. A user can
+                make an account and add ingredients they have on-hand. The user
+                will be shown and be able to save full recipes according to what
+                ingredients the user has.
+                Visit the site&nbsp;
+                <a href="https://kaylinskitchen.ninja" rel="noopener noreferrer" target="_blank">
+                  here!
+                </a>
+                <br />
+                <br /> Tech Used:
+                <br /> React.js | Node.js | Javascript | Redux.js | Express.js |
+                PostgreSQL | CircleCi | AWS Elastic Beanstalk
+              </p>
+              <ImageGallery
+                className="image-gallery"
+                items={kaylinsKitchenImages}
+                showFullscreenButton={true}
+                showPlayButton={false}
+                showThumbnails={false}
+              />
+            </div>
+            <div className="project-container">
+              <h1 className="project-title">Kaylin's Kitchen</h1>
+              <p className="project-description">
+                Kaylin's kitchen is a recipe search based website. A user can
+                make an account and add ingredients they have on-hand. The user
+                will be shown and be able to save full recipes according to what
+                ingredients the user has.
+                Visit the site&nbsp;
+                <a href="https://kaylinskitchen.ninja" rel="noopener noreferrer" target="_blank">
+                  here!
+                </a>
+                <br />
+                <br /> Tech Used:
+                <br /> React.js | Node.js | Javascript | Redux.js | Express.js |
+                PostgreSQL | CircleCi | AWS Elastic Beanstalk
+              </p>
+              <ImageGallery
+                className="image-gallery"
+                items={kaylinsKitchenImages}
                 showFullscreenButton={true}
                 showPlayButton={false}
                 showThumbnails={false}
